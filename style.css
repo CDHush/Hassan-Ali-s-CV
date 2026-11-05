@@ -1,0 +1,26 @@
+/*Main header h1 and ul design*/
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-family: "EB Garamond", Georgia, serif;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.section-divider-1 {
+    margin: -5px 0;
+    border: 1.5px solid #000;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.icons li {
+    font-size: 0.9em;
+    font-family: Calibri, sans-serif;
+    font-weight: 200;
+}
+
+/*Section 1 Education Design*/
