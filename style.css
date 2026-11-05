@@ -1,3 +1,37 @@
+/*General Styles*/
+body {
+    font-family: Calibri, sans-serif;
+    padding: 0;
+    color: #000;
+}
+.section-divider {
+    margin: 5px 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container h3, 
+.header-container h4 {
+  margin: 0 0 -20px 0;
+  padding: 10px 0;
+}
+h3 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1em;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+h4 {
+    font-family: Calibri, Georgia, serif;
+    font-size: 0.9em;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
 /*Main header h1 and ul design*/
 h1 {
     text-align: center;
@@ -24,3 +58,18 @@ h1 {
 }
 
 /*Section 1 Education Design*/
+h2 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1.2em;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-top: 7.5px;
+}
+.education ul, .experience ul, .projects ul, .skills-languages ul, .volunteer-work ul {
+    list-style-type: "– ";
+    padding-left: 12px;
+    margin-top: -10px;
+}
+
+
