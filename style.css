@@ -1,8 +1,13 @@
 /*General Styles*/
+:root{
+    --primary-color: #000;
+    --secondary-color: #555;
+}
+
 body {
     font-family: Calibri, sans-serif;
     padding: 0;
-    color: #000;
+    color: var(--primary-color);
     letter-spacing: 0.09em
 }
 .bold {
@@ -10,7 +15,7 @@ body {
 }
 .location {
     font-style: italic;
-    color: #555;
+    color: var(--secondary-color);
 }
 .section-divider {
     margin: -5px 0 5px 0;
@@ -73,11 +78,15 @@ h2 {
     list-style-type: "– ";
     padding-left: 12px;
     margin-top: -10px;
+    margin-left: 10px;
 }
 .education > ul > li, .experience > ul > li{
     padding-left: 5px;
 }
 /*Section 3 - Projects*/
+.projects p {
+        margin-left: 5px;
+}
 .project-title {
     font-family: "EB Garamond", Georgia, serif;
     font-size: 0.8em;
@@ -85,7 +94,7 @@ h2 {
 /*Section 4 - Skills & Languages*/
 .skills-languages {
     list-style-type: none;
-    padding-left: 12px;
+    padding-left: 5px;
 }
 .skills-languages li {
     display: grid;
@@ -98,3 +107,18 @@ h2 {
     font-weight: bold;
 }
 /*Section 5 - Volunteer Work*/
+.volunteer-work .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    color: var(--secondary-color);
+    font-weight: 100;
+}
+.reference-text {
+    font-family: Calibri, sans-serif;
+    color: var(--secondary-color);
+    font-size: 0.8em;
+    font-weight: 200;
+}
