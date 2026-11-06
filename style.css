@@ -63,7 +63,7 @@ h1 {
     font-weight: 200;
 }
 
-/*Section 1 Education Design*/
+/*Section 1 and 2 Education and ExperienceDesign*/
 h2 {
     font-family: "EB Garamond", Georgia, serif;
     font-size: 1.2em;
@@ -80,4 +80,8 @@ h2 {
 .education > ul > li, .experience > ul > li{
     padding-left: 5px;
 }
-
+/*Section 3 - Projects*/
+.project-title {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 0.8em;
+}
